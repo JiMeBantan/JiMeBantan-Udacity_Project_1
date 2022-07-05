@@ -166,18 +166,6 @@ class Blockchain {
      * Remember the star should be returned decoded.
      * @param {*} address 
      */
-    /*getStarsByWalletAddress (address) {
-        let self = this;
-        let stars = [];
-        return new Promise((resolve, reject) => {
-            let data = self.chain.filter((block)=> {
-                block.getData();
-                return block.address === address
-            });
-            stars.push(data);
-            resolve(stars);
-            })
-        };*/
     getStarsByWalletAddress(address) {
         let self = this;
         let stars = [];
